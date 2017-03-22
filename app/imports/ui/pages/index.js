@@ -8,6 +8,7 @@ import './home-page.html';
 import './login-page.html';
 import './landing-page.html';
 import './registration-page.html';
+import './view-listing-page.html';
 
 import './list-stuff-page.html';
 import './list-stuff-page.js';

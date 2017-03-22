@@ -23,6 +23,12 @@ FlowRouter.route('/login', {
   },
 });
 
+FlowRouter.route('/view-listing', {
+  name: 'View_Listing_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'View_Listing_Page' });
+  },
+});
 FlowRouter.route('/registration', {
   name: 'Registration_Page',
   action() {
