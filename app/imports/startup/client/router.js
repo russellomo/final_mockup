@@ -29,6 +29,20 @@ FlowRouter.route('/view-listing', {
     BlazeLayout.render('App_Body', { main: 'View_Listing_Page' });
   },
 });
+
+FlowRouter.route('/view-profile', {
+  name: 'View_Profile_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'View_Profile_Page' });
+  },
+});
+
+FlowRouter.route('/create-listing', {
+  name: 'Create_Listing_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Create_Listing_Page' });
+  },
+});
 FlowRouter.route('/registration', {
   name: 'Registration_Page',
   action() {

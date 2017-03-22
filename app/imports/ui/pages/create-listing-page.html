@@ -1,10 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-</head>
-<body>
-
-</body>
-</html>
+<template name="Create_Listing_Page">
+  <div style="margin-top: 20px; margin-bottom: 20px" class="ui container">
+    <form class="ui form">
+      <div class="field">
+        <label>Book Title</label>
+        <input type="text" name="book-title" placeholder="TextBook">
+      </div>
+      <div class="field">
+        <label>Recommended Major</label>
+        <select class="ui dropdown">
+          <option value="">Select</option>
+          <option value="0">Computer Science</option>
+          <option value="1">Mathematics</option>
+          <option value="2">Photography</option>
+          <option value="3">Zoology</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Asking Price</label>
+        <select class="ui dropdown">
+          <option value="">Select</option>
+          <option value="1">1.00</option>
+          <option value="5">5.00</option>
+          <option value="10">10.00</option>
+          <option value="20">20.00</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Quality</label>
+        <select class="ui dropdown">
+          <option value="">Select</option>
+          <option value="0">Very Poor</option>
+          <option value="1">Poor</option>
+          <option value="2">Well Worn</option>
+          <option value="3">Worn</option>
+          <option value="4">Used</option>
+          <option value="5">New</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Description</label>
+        <textarea rows="2"></textarea>
+      </div>
+      <button class="ui button" type="submit">List!</button>
+    </form>
+  </div>
+</template>
