@@ -1,0 +1,55 @@
+<template name="Registration_Page">
+  <div class="ui centered grid registration page">
+    <div style="margin-top: 30px" class="ui centered grid container">
+      <form class="ui form registration form">
+        <div class="ui centered grid">
+          <div class="six wide column">
+            <div class="field">
+              <label style="color:white">First Name</label>
+              <input type="text" name="first-name" placeholder="Jane">
+            </div>
+            <div class="field">
+              <label style="color:white">Last Name</label>
+              <input type="text" name="last-name" placeholder="Doe">
+            </div>
+            <div class="field">
+              <label style="color:white">Email</label>
+              <input type="text" name="email" placeholder="@hawaii.edu">
+            </div>
+            <div class="field">
+              <label style="color:white">Password</label>
+              <input type="text" name="password" placeholder="**********">
+            </div>
+          </div>
+          <div class="six wide column">
+            <div class="field">
+              <label style="color:white">Major</label>
+              <select class="ui dropdown">
+                <option value="">Select</option>
+                <option value="0">Computer Science</option>
+                <option value="1">Mathematics</option>
+                <option value="2">Photography</option>
+                <option value="3">Zoology</option>
+              </select>
+            </div>
+            <div class="field">
+              <label style="color: white">Academic Standing</label>
+              <div class="ui checkbox">
+                <input type="checkbox" name="undergrad">
+                <label style="color: white">Undergraduate</label>
+              </div>
+            </div>
+            <div class="field">
+              <div class="ui checkbox">
+                <input type="checkbox" name="Graduate">
+                <label style="color: white">Graduate</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <button class="ui button" type="submit">Register</button>
+      </form>
+    </div>
+  </div>
+</template>
